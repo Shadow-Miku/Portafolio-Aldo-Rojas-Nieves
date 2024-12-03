@@ -129,7 +129,7 @@
   }
 }
 
-@keyframes active {
+@keyframes udemy {
   0% {
     color: #0000ff; /* Azul eléctrico */
   }
@@ -577,12 +577,17 @@ main {
   margin-bottom: 15px;
 }
 
-.about-text p a.about-link {
+.about-text p a.about-link-github {
   display: inline;
   animation: github 2s linear infinite;
   text-decoration: underline;
 }
 
+.about-text p a.about-link-udemy {
+  display: inline;
+  animation: udemy 2s linear infinite;
+  text-decoration: underline;
+}
 /**
  * #service 
  */
